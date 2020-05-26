@@ -8,3 +8,13 @@ Reference: https://stanfordmlgroup.github.io/competitions/mura/
 
 In this, I have applied InceptionV3 model to detect abnormality through X-ray images. 
 
+Reshaping the images to be of size 512x512 which is the size used in most of the MURA implementaions on github.
+Reshaping is done by black padding the images so that the original image stays in the center.
+
+Apply image augmentation techniques like :
+a. Horizontal flipping
+b. Random rotation upto 30 degrees
+
+Intially, I used pretrained weights on imagenet and then started unfreezing the weights and started training a few layers from last and improved the accuracy
+
+Employed early stopping to avoid overfitting. Apart from that also tried drop out.
