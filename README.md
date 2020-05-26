@@ -5,3 +5,6 @@ MURA (musculoskeletal radiographs) is a large dataset of bone X-rays. Algorithms
 Musculoskeletal conditions affect more than 1.7 billion people worldwide, and are the most common cause of severe, long-term pain and disability, with 30 million emergency department visits annually and increasing. The dataset can lead to significant advances in medical imaging technologies which can diagnose at the level of experts, towards improving healthcare access in parts of the world where access to skilled radiologists is limited.
 
 Reference: https://stanfordmlgroup.github.io/competitions/mura/
+
+In this, I have applied InceptionV3 model to detect abnormality through X-ray images. 
+
